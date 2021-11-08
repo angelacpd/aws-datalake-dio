@@ -1,5 +1,6 @@
 # DIO-LiveCoding-AWS-BigData
 Repositório de cógido do Dio Live Coding com AWS EMR e Python
+https://github.com/cassianobrexbit/DIO-LiveCoding-AWS-BigData
 Neste repositório há os arquivos de configuração e execução de análise de dados.
 
 ## Instruções
@@ -46,7 +47,6 @@ ____
 
 Links úteis
 
-https://github.com/cassianobrexbit/DIO-LiveCoding-AWS-BigData
 https://mrjob.readthedocs.io/en/latest/guides/runners.html
 https://mrjob.readthedocs.io/en/latest/guides/emr-quickstart.html#amazon-setup
 https://stackoverflow.com/questions/41231253/boto3-emr-client-run-job-flow-wants-instanceprofile-attribute
