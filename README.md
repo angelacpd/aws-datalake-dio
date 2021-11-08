@@ -1,3 +1,10 @@
+# Réplica de DIO-LiveCoding-AWS-BigData
+
+Repositório modificado e com resultados.
+Tarefa do bootcamp de Engenharia de Dados da [Digital Innovation One](https://web.digitalinnovation.one/).
+
+Instruções abaixo.
+
 # DIO-LiveCoding-AWS-BigData
 Repositório de cógido do Dio Live Coding com AWS EMR e Python
 https://github.com/cassianobrexbit/DIO-LiveCoding-AWS-BigData
@@ -38,7 +45,6 @@ Neste repositório há os arquivos de configuração e execução de análise de
   * _nano ~/.mrjob.conf_ 
   * _python3 dio-live-wordcount-test.py -r emr s3://{your_s3_bucket_name}/data/SherlockHolmes.txt --output-dir=s3://{your_s3_bucket_name}/output/logs1 --cloud-tmp-dir=s3://{your_s3_bucket_name}/temp/_
 
-
 ____
 
 **Windows**
@@ -65,3 +71,5 @@ MRStep(mapper=self.mapper_get_words, reducer=self.reducer_count_words)
 MRStep(mapper=self.mapper_make_counts_key, reducer=self.reducer_output_words)
 ```
 > python dio-live-wordcount-test.py -r emr s3://dio-datalake/data/sherlock.txt --output-dir=s3://dio-datalake/output/logs-02 --cloud-tmp-dir=s3://dio-datalake/temp/
+
+____
